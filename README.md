@@ -31,6 +31,9 @@ For this different codes have been defined
 - Two_tones_test.py
 - export_results_test.py
 
+### Transmitter
+Is where the transmitter block definition for the Lumerical interconnect was done, with all hte initial data
+
 ## Definition of sweeps
 In here various sweeps in interconnect have been defined
 
@@ -53,3 +56,13 @@ In here you can find the functions:
 To vary the RF voltage from a signal, you cna find the functions
 -  add_sweep: To define the sweep
 -  export_results_ic_RF_sweep: To export the data from a .icp file
+  
+### Two RF tones sweep
+- add_sweep: To define the sweep
+- export_results_icp: To export the data from an .icp file
+- process_data_icp: to process the data (unfinished)
+
+### export_results_test
+- Is only code used to export and process all the different sweeps
+  ### init_constants.py
+  -  For the constants you need throghout the simulation
